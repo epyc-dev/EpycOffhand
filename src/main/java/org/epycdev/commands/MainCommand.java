@@ -32,7 +32,7 @@ public class MainCommand implements CommandExecutor {
         sender.sendMessage(MessageUtils.getColoredMessage(" &#00A2FF&lEPYC OFFHAND HELP"));
         sender.sendMessage(MessageUtils.getColoredMessage(" &fAll general commands."));
         sender.sendMessage(MessageUtils.getColoredMessage(" "));
-        sender.sendMessage(MessageUtils.getColoredMessage(" &8• &#68C8FF/epycoffhand get &3<author/version> &8- &7Get plugin author or version."));
+        sender.sendMessage(MessageUtils.getColoredMessage(" &8• &#68C8FF/epycoffhand get &#00A2FF<author/version> &8- &7Get plugin author or version."));
         sender.sendMessage(MessageUtils.getColoredMessage(" &8• &#68C8FF/epycoffhand reload &8- &7Reload the plugin."));
         sender.sendMessage(MessageUtils.getColoredMessage(" "));
     }

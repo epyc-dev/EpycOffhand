@@ -16,7 +16,7 @@ import org.json.simple.JSONObject;
 import org.json.simple.parser.JSONParser;
 
 public class EpycOffhand extends JavaPlugin {
-    public static String prefix = "&8[&#68C8FFEpyc Offhand&8] &r";
+    public static String prefix = "&7[&#00A2FF&lE&#13A9FF&lP&#26B0FF&lY&#39B7FF&lC&#4CBEFF&l &#5FC5FF&lO&#5FC5FF&lF&#4CBEFF&lF&#39B7FF&lH&#26B0FF&lA&#13A9FF&lN&#00A2FF&lD&r&7] &r";
     private String version;
     private MainConfigManager mainConfigManager;
     private static final String UPDATE_CHECK_URL = "https://api.spigotmc.org/simple/0.2/index.php?action=getResource&id=116986";
@@ -31,13 +31,13 @@ public class EpycOffhand extends JavaPlugin {
         registerEvents();
 
         Bukkit.getConsoleSender().sendMessage(MessageUtils.getColoredMessage(
-                "&#68C8FF    ____  &#00A2FF____"));
+                "&#00A2FF    ____  &#68C8FF____"));
         Bukkit.getConsoleSender().sendMessage(MessageUtils.getColoredMessage(
-                "&#68C8FF   / __/ &#00A2FF/ __ \\   &#68C8FF&nEpyc&r &#68C8FF&nOffhand&r &7- &#00A2FFv" + version));
+                "&#00A2FF   / __/ &#68C8FF/ __ \\   &#00A2FF&nEpyc&r &#00A2FF&nOffhand&r &7- &#68C8FFv" + version));
         Bukkit.getConsoleSender().sendMessage(MessageUtils.getColoredMessage(
-                "&#68C8FF  / _/  &#00A2FF/ /_/ /    &7Author: &#00A2FFepycdev"));
+                "&#00A2FF  / _/  &#68C8FF/ /_/ /    &fAuthor: &#68C8FFepycdev"));
         Bukkit.getConsoleSender().sendMessage(MessageUtils.getColoredMessage(
-                "&#68C8FF /___/  &#00A2FF\\____/     &7Using method: &#00A2FF" + mainConfigManager.getMethod()));
+                "&#00A2FF /___/  &#68C8FF\\____/     &fUsing method: &#68C8FF" + mainConfigManager.getMethod()));
         Bukkit.getConsoleSender().sendMessage(" ");
 
         checkForUpdates();
@@ -46,13 +46,13 @@ public class EpycOffhand extends JavaPlugin {
     @Override
     public void onDisable() {
         Bukkit.getConsoleSender().sendMessage(MessageUtils.getColoredMessage(
-                "&#68C8FF    ____  &#00A2FF____"));
+                "&#00A2FF    ____  &#68C8FF____"));
         Bukkit.getConsoleSender().sendMessage(MessageUtils.getColoredMessage(
-                "&#68C8FF   / __/ &#00A2FF/ __ \\   &#68C8FF&nEpyc&r &#68C8FF&nOffhand&r &7- &#00A2FFv" + version));
+                "&#00A2FF   / __/ &#68C8FF/ __ \\   &#00A2FF&nEpyc&r &#00A2FF&nOffhand&r &7- &#68C8FFv" + version));
         Bukkit.getConsoleSender().sendMessage(MessageUtils.getColoredMessage(
-                "&#68C8FF  / _/  &#00A2FF/ /_/ /    &7Author: &#00A2FFepycdev"));
+                "&#00A2FF  / _/  &#68C8FF/ /_/ /    &fAuthor: &#68C8FFepycdev"));
         Bukkit.getConsoleSender().sendMessage(MessageUtils.getColoredMessage(
-                "&#68C8FF /___/  &#00A2FF\\____/     &cPlugin was disabled."));
+                "&#00A2FF /___/  &#68C8FF\\____/     &cPlugin was disabled."));
         Bukkit.getConsoleSender().sendMessage(" ");
     }
 
@@ -82,7 +82,7 @@ public class EpycOffhand extends JavaPlugin {
                 if (latestVersion != null & !latestVersion.isEmpty() & !latestVersion.equals(version)) {
                     Bukkit.getScheduler().runTask(this, () -> {
                         Bukkit.getConsoleSender().sendMessage(MessageUtils.getColoredMessage(
-                                prefix + "&#FFFF00A new version is available: &#00A2FF" + latestVersion));
+                                prefix + "&#FFFF00A new version is available: &#68C8FF" + latestVersion));
                     });
                 } else {
                     Bukkit.getScheduler().runTask(this, () -> {
