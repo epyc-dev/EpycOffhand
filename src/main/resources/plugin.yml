@@ -1,5 +1,5 @@
 main: org.epycdev.EpycOffhand
-version: 1.0.1
+version: 1.0.2
 name: EpycOffhand
 description: This plugin fix the offhand bug. Useful for boxpvp servers.
 author: epycdev

@@ -1,11 +1,22 @@
-######################################
+#
+#  88888888b                                .88888.  .8888b .8888b dP                               dP
+#  88                                      d8'   `8b 88   " 88   " 88                               88
+#  a88aaaa    88d888b. dP    dP .d8888b.    88     88 88aaa  88aaa  88d888b. .d8888b. 88d888b. .d888b88
+#  88        88'  `88 88    88 88'  `""    88     88 88     88     88'  `88 88'  `88 88'  `88 88'  `88
+#  88        88.  .88 88.  .88 88.  ...    Y8.   .8P 88     88     88    88 88.  .88 88    88 88.  .88
+#  88888888P 88Y888P' `8888P88 `88888P'     `8888P'  dP     dP     dP    dP `88888P8 dP    dP `88888P8
+#            88            .88
+#            dP        d8888P
 #
 # Welcome to Epyc Offhand config.yml
 #
 # Discord: https://discord.gg/mduW57fG8R
+# SpigotMC: https://www.spigotmc.org/resources/epyc-offhand-1-16-1-20-no-dependencies.116986/
 # Open ticket if you have issues!
 #
-######################################
+# NOTE: I recommend deleting the plugin folder with each plugin update.
+#
+#########################################################################################################
 config:
   function_method:
     method: 2 # Default: 2 - There are 4 methods available. 1, 2, 3 and 4.
