@@ -1,0 +1,16 @@
+main: org.epycdev.EpycOffhand
+version: 1.0.1
+name: EpycOffhand
+description: This plugin fix the offhand bug. Useful for boxpvp servers.
+author: epycdev
+api-version: 1.13
+load: POSTWORLD
+
+commands:
+  epycoffhand:
+    description: main command
+    aliases: [eoff, eo, offhand]
+
+permissions:
+  epycoffhand.commands.reload:
+    description: Permission for /reload

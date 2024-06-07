@@ -1,0 +1,12 @@
+######################################
+#
+# Welcome to Epyc Offhand config.yml
+#
+# Discord: https://discord.gg/mduW57fG8R
+# Open ticket if you have issues!
+#
+######################################
+config:
+  function_method:
+    method: 2 # Default: 2 - There are 4 methods available. 1, 2, 3 and 4.
+    # All methods will be explained in the discord and on the plugin pages.
